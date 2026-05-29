@@ -1,6 +1,5 @@
 # Use vispy to create more responsive interactive plots
 
-%gui qt
 import numpy as np
 import vispy
 from vispy import app, scene
