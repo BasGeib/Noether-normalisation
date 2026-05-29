@@ -57,7 +57,6 @@ def plot_implicit(fn, bbox=(-5,5), cmap=cm.viridis):
     ax.set_zlabel('z')
     plt.show()
 
-%matplotlib notebook 
 def f(x,y,z):
     return (x+z**2)*(y+z)*(x+z**2-z)+1
 
