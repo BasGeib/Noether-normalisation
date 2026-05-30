@@ -21,7 +21,7 @@ Examples of explicit normalisation constructions using Noether's normalisation l
 
 In `testSurface.py`, we test an equation by taking 
 ```
-$$v \in \left{ x , y , z \right}$$
+$$v \in \left\{ x , y , z \right\}$$
 ```
 and setting $u = \alpha - v^e$, $w = \beta - v^k$ for $\left{ \alpha, \beta \right} = \left{ x , y , z \right} \setminus {v}$.
 The code then tests for all $e,k \in \left{ 0, 1 \right}$ whether the leading coefficient of $v$ is independent of $u$ and $w$. 
