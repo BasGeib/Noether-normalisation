@@ -1,5 +1,5 @@
 # Noether-normalisation
-Examples of explicit normalisation constructions using Noether's normalisation lemma. \\
+Examples of explicit normalisation constructions using Noether's normalisation lemma. 
 
 # Includes
  1. Jupyter notebook with all code. 
@@ -15,3 +15,8 @@ Examples of explicit normalisation constructions using Noether's normalisation l
  - vispy (_efficient_ plotting)
  - skimage (measure)
  - imageio_ffmpeg (saving to video)
+
+
+# The surface ```$f = x^2 z^2 - xz^3 + y^2 z^2 - yz^3 - 1$```
+
+In `testSurface.py`, we test an equation by taking `v \in \set
