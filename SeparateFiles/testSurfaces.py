@@ -1,3 +1,6 @@
+## try f = .... and test whether there are any exponents lower e and k such that both of them are strictly less than 2
+## In other words, find surface such that Noether normalisation gives a nonlinear change of variables.
+
 import sympy as sp
 
 x, y, z, u, v, w = sp.symbols('x y z u v w')
