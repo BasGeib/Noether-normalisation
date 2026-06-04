@@ -2,10 +2,11 @@
 Examples of explicit normalisation constructions using Noether's normalisation lemma. 
 
 # Includes
- 1. Jupyter notebook with all code. 
- 2. `surface(2).png` is the image used in the final report. 
- 3. `rotation(2).mp4` is a video rotating the surface.
- 4. All code in separate folders
+ 1. Executable to make interactive implicit plots -> download .zip and run `plottingGUI.exe`
+ 2. Jupyter notebook with all code. 
+ 3. `surface(2).png` is the image used in the final report. 
+ 4. `rotation(2).mp4` is a video rotating the surface.
+ 5. All code in separate folders
 
 # Requirements
  - sympy (symbolic computations)
