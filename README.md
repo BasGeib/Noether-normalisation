@@ -2,11 +2,13 @@
 Examples of explicit normalisation constructions using Noether's normalisation lemma. 
 
 # Includes
- 1. Executable to make interactive implicit plots -> download .zip and run `plottingGUI.exe`
+ 1. Executable to make interactive implicit plots: download[^1] `plottingGUI.zip` and run `plottingGUI.exe`
  2. Jupyter notebook with all code. 
  3. `surface(2).png` is the image used in the final report. 
  4. `rotation(2).mp4` is a video rotating the surface.
  5. All code in separate folders
+
+[^1]:under `releases` on the infor bar on the right.
 
 # Requirements
  - sympy (symbolic computations)
@@ -30,3 +32,4 @@ and setting $u = \alpha - v^e$, $w = \beta - v^k$ for
 ```
 The code then tests for all $e,k \in \{ 0, 1 \}$ whether the leading coefficient of $v$ is independent of $u$ and $w$. 
 The specific surface $f = x^2 z^2 - xz^3 + y^2 z^2 - yz^3 - 1$ does not satisfy this, hence in the construction for the normalisation we need to take $e \geqslant 2$ or $k \geqslant 2$.
+
